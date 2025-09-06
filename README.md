@@ -20,7 +20,7 @@ wip:
 
 2. Prepare your input text file (INPUT.txt).
 
-3. Run: python sc-format_playlist_tracklist.py
+3. Run: python format-sc_playlist_tracklist.py
 
 Output will be saved as:
 >OUTPUT_YYYYMMDD_HHMMSS.txt   OUTPUT_YYYYMMDD_HHMMSS.csv (if SaveAsCSV = true)
@@ -40,7 +40,7 @@ A Python script for comparing two text files (music tracklists) using fuzzy matc
 
 2. Prepare your input text files (MAIN_list.txt, NEW_list.txt).
 
-3. Run: python fuzzy-compare_tracklists.py
+3. Run: python compare-fuzzy_tracklists.py
 
 4. Print results to the console with color-coded scores
 
