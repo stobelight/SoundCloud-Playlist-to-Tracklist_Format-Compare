@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tracklist Formatter</title>
+  <script defer src="script.js"></script>
+  <style>
+    body { font-family: sans-serif; padding: 20px; }
+    textarea, input, select { width: 100%; margin-bottom: 10px; }
+    #output { white-space: pre-wrap; margin-top: 20px; background: #f4f4f4; padding: 10px; }
+  </style>
+</head>
+<body>
+  <h2>Paste Your Tracklist</h2>
+  <textarea id="trackInput" rows="10" placeholder="Paste your tracklist here..."></textarea>
+
+  <h3>Settings</h3>
+  <label>Sort Option:</label>
+  <select id="sortOption">
+    <option value="track">Track</option>
+    <option value="number" selected>Number</option>
+  </select>
+
+  <label>Prefix to Add:</label>
+  <input type="number" id="prefix" value="0">
+
+  <label>Max Length:</label>
+  <input type="number" id="maxLength" value="200">
+
+  <label>Remove Numeric Prefix:</label>
+  <input type="checkbox" id="removePrefix">
+
+  <label>Replace Known Separators:</label>
+  <input type="checkbox" id="replaceSeparator" checked>
+
+  <label>Separators (comma-separated):</label>
+  <input type="text" id="separators" value="·, •, ‧, ⋅">
+
+  <label>Replace With:</label>
+  <input type="text" id="replaceWith" value=" - ">
+
+  <label>Blocklist (comma-separated):</label>
+  <input type="text" id="blocklist" value="unknown artist, various artists">
+
+  <button onclick="processTracklist()">Format Tracklist</button>
+
+  <button onclick="exportCSV()">Download CSV</button>
+
+  <div id="output"></div>
+
+  <div id="youtubeResults"></div>
+</body>
+</html>
