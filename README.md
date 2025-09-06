@@ -13,6 +13,7 @@ A Python script that processes raw, copy-pasted playlist text into formatted tra
 
 wip:
 - All in one full featured interface
+>/js/index.html    ; demo
 
 ## Usage
 1. Create a config.ini file, or modify default config file.
@@ -109,4 +110,4 @@ similarity_threshold = 75
 strip_leading_numbers = true
 ```
 
->Thank you Copilot and GPT-5 for the free vibecode
+- >Thank you Copilot and GPT-5 for the free vibecode
