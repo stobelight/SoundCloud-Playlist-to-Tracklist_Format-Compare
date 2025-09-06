@@ -40,7 +40,7 @@ A Python script for comparing two text files (music tracklists) using fuzzy matc
 ## Usage
 > Recommend: Download repo and Open folder in Visual Studio Code, run .py in Terminal.
 1. Create a config.ini file, or modify default config file.
-2. Prepare your input text files. [View Sample MAIN_list.txt](MAIN_list.txt), [View Sample NEW_list.txt](NEW_list.txt) (here, the original MAIN tracklist is being compared to the NEW playlist copied live from SoundCloud. so, some tracks are missing to time)
+2. Prepare your input text files. [View Sample MAIN_list.txt](MAIN_list.txt), [View Sample NEW_list.txt](NEW_list.txt) (here, the original MAIN tracklist is compared to the NEW playlist copied live from SoundCloud. so, some tracks are missing to time)
 3. Run: python compare-fuzzy_tracklists.py
 4. Print results to the console with color-coded scores
 
