@@ -1,5 +1,4 @@
 # SoundCloud-Playlist-to-Tracklist Format-Compare
-copy paste raw playlist text into cleaned formatted tracklist
 
 # Tracklist-Format for SoundCloud Playlist
 A Python script that processes raw, copy-pasted playlist text into formatted tracklist output.  
