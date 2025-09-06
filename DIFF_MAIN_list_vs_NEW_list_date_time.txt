@@ -1,0 +1,119 @@
+=== Lines only in main_file: MAIN_list.txt (missing from new_file: NEW_list.txt) ===
+Threshold: 75 | Sort: score | Threads: 8
+
+103. Steppenwolf - Born To Be Wild  --> Closest: 'blue oyster cult - (don't fear) the reaper'  (Score: 43)
+
+4. M.O.O.N. - Hydrogen (Extended Cut)  --> Closest: 'john denver - take me home, country roads (original version)'  (Score: 43)
+
+86. Gary Glitter - Rock And Roll Part II  --> Closest: 'linkin park - breaking the habit'  (Score: 44)
+
+41. Hans Zimmer - Mountains/Tick-Tock & No Time for Caution  --> Closest: 'weeshing - hans zimmer - requiem for a dream'  (Score: 46)
+
+47. Remember Me - Leslie Parrish  --> Closest: 'eddie murphy - party all the time'  (Score: 46)
+
+161. Bill Conti - Gonna Fly Now (Theme From "Rocky")  --> Closest: 'corona - the rhythm of the night'  (Score: 48)
+
+18. Darren Styles & Re-Con - Quiver  --> Closest: 'milky chance - stolen dance'  (Score: 50)
+
+106. Cher - Believe  --> Closest: 'adele - hello'  (Score: 52)
+
+5. Cosmic Gate - Exploration Of Space (Original Mix)  --> Closest: 'atomic horizon - halo theme song original'  (Score: 55)
+
+42. ERA - Ameno  --> Closest: 'deccarecords - era - ameno'  (Score: 58)
+
+107. Fox Stevenson - Dreamland  --> Closest: 'fox stevenson - knowhow'  (Score: 59)
+
+169. OwlCityOfficial - Fireflies  --> Closest: 'owl city - fireflies'  (Score: 60)
+
+176. Liquicity Records - Polygon - One Day  --> Closest: 'polygon - polygon - one day'  (Score: 61)
+
+82. Ennio Morricone - The Ecstasy of Gold  --> Closest: 'ennio morricone featuring edda dell'orso - the ecstasy of gold (feat. edda dell'orso)'  (Score: 61)
+
+57. Black Eyed Peas - Boom Boom Pow  --> Closest: 'the black eyed peas - boom boom pow (the best of the e.n.d. version)'  (Score: 63)
+
+119. Black Eyed Peas - I Gotta Feeling  --> Closest: 'the black eyed peas - i gotta feeling (the best of the e.n.d. version)'  (Score: 65)
+
+171. Stardust - Stardust - Music Sounds Better With You  --> Closest: 'stardust, benjamin diamond, alan braxe - music sounds better with you'  (Score: 67)
+
+33. Liquicity Records - Edlan - Dreamcatcher (Ft. Ella)  --> Closest: 'edlan - edlan - dreamcatcher (ft. ella)'  (Score: 68)
+
+8. Bassrush - REAPER - MAKE A MOVE  --> Closest: 'reaper - reaper - make a move'  (Score: 69)
+
+117. DENZELCURRYPH - Ultimate  --> Closest: 'denzel curry - ultimate'  (Score: 70)
+
+11. LSB - Potshot (Full)  --> Closest: 'mitch manson - lsb - potshot (full)'  (Score: 71)
+
+60. 21 Savage - Slidin  --> Closest: '21 savage, metro boomin - slidin'  (Score: 71)
+
+79. Monstercat - Saint Punk - Empty Bed  --> Closest: 'saint punk - saint punk - empty bed'  (Score: 71)
+
+141. deadman 死人 - Shibayan Records - Tiny Little Adiantum (deadman 死人 Remix) [Omae Wa Mou]  --> Closest: 'shibayanrecords - shibayanrecords - tiny little adiantum (deadman 死人 remix) [omae wa mou]'  (Score: 73)
+
+95. Déjà Vu - Dave Rodgers  --> Closest: 'dave rodgers - déjà vu - dave rodgers'  (Score: 73)
+
+14. Pilot. - Fox Stevenson - Bruises  --> Closest: 'fox stevenson - fox stevenson - bruises'  (Score: 74)
+
+145. playboicarti - Magnolia  --> Closest: 'playboi carti - magnolia'  (Score: 74)
+
+25. Darude - Sandstorm  --> Closest: 'darude - sandstorm (radio edit)'  (Score: 74)
+
+
+=== Lines only in new_file: NEW_list.txt (not in main_file: MAIN_list.txt) ===
+Threshold: 75 | Sort: score | Threads: 8
+
+172. Edgar Aquinde Navarrete - 06. Mr. Groove - Night & Day  --> Closest: '21 savage - brand new draco'  (Score: 39)
+
+173. Jacob Tillberg - Jacob Tillberg - Caffeine Rush  --> Closest: 'gorillaz - feel good inc.'  (Score: 40)
+
+99. wainer verz - Cher - Believe - Official - Music - Video  --> Closest: 'aviciiofficial - levels (original version)'  (Score: 43)
+
+176. Muzzy - Muzzy - Feeling Stronger (feat. Charlotte Colley) (High Maintenance Remix)  --> Closest: 'tiësto - in my mind (axwell mix) - ivan gough & feenixpawl ft. georgi kay'  (Score: 44)
+
+180. Dancecode Electronics - N'to - La Clé Des Champs  --> Closest: 'm.o.o.n. - hydrogen (extended cut)'  (Score: 44)
+
+179. Murdock - Murdock - Waterfalls  --> Closest: 'mura masa - lovesick (wateva - remix)'  (Score: 46)
+
+174. Unlike Pluto - Unlike Pluto - Everything Black (feat. Mike Taylor)  --> Closest: 'black eyed peas - let's get it started (spike mix)'  (Score: 48)
+
+177. FlaysMatic - Monrroe Ft. Zara Kershaw - Out Of Time  --> Closest: 'daft punk - one more time'  (Score: 49)
+
+175. Maduk - Maduk - Everytime (ft. Calixte)  --> Closest: 'cascada - everytime we touch (radio edit)'  (Score: 55)
+
+178. Maduk - Maduk - Fire Away  --> Closest: 'maduk - maduk - pokemon remix (free download)'  (Score: 57)
+
+38. DeccaRecords - ERA - Ameno  --> Closest: 'era - ameno'  (Score: 58)
+
+160. Owl City - Fireflies  --> Closest: 'owlcityofficial - fireflies'  (Score: 60)
+
+77. Ennio Morricone featuring Edda Dell'Orso - The Ecstasy of Gold (feat. Edda Dell'Orso)  --> Closest: 'ennio morricone - the ecstasy of gold'  (Score: 61)
+
+52. The Black Eyed Peas - Boom Boom Pow (The Best Of The E.N.D. Version)  --> Closest: 'black eyed peas - boom boom pow'  (Score: 63)
+
+111. The Black Eyed Peas - I Gotta Feeling (The Best Of The E.N.D. Version)  --> Closest: 'black eyed peas - i gotta feeling'  (Score: 65)
+
+162. Stardust, Benjamin Diamond, Alan Braxe - Music Sounds Better With You  --> Closest: 'stardust - stardust - music sounds better with you'  (Score: 67)
+
+30. Edlan - Edlan - Dreamcatcher (Ft. Ella)  --> Closest: 'liquicity records - edlan - dreamcatcher (ft. ella)'  (Score: 68)
+
+167. Polygon - Polygon - One Day  --> Closest: 'polygon - polygon - contradiction'  (Score: 69)
+
+6. REAPER - REAPER - MAKE A MOVE  --> Closest: 'bassrush - reaper - make a move'  (Score: 69)
+
+109. Denzel Curry - Ultimate  --> Closest: 'denzelcurryph - ultimate'  (Score: 70)
+
+55. 21 Savage, Metro Boomin - Slidin  --> Closest: '21 savage - slidin'  (Score: 71)
+
+74. Saint Punk - Saint Punk - Empty Bed  --> Closest: 'monstercat - saint punk - empty bed'  (Score: 71)
+
+9. Mitch Manson - LSB - Potshot (Full)  --> Closest: 'lsb - potshot (full)'  (Score: 71)
+
+133. ShibayanRecords - ShibayanRecords - Tiny Little Adiantum (deadman 死人 Remix) [Omae Wa Mou]  --> Closest: 'deadman 死人 - shibayan records - tiny little adiantum (deadman 死人 remix) [omae wa mou]'  (Score: 73)
+
+89. Dave Rodgers - Déjà Vu - Dave Rodgers  --> Closest: 'déjà vu - dave rodgers'  (Score: 73)
+
+12. Fox Stevenson - Fox Stevenson - Bruises  --> Closest: 'fox stevenson - fox stevenson - take you down'  (Score: 74)
+
+137. Playboi Carti - Magnolia  --> Closest: 'playboicarti - magnolia'  (Score: 74)
+
+22. Darude - Sandstorm (Radio Edit)  --> Closest: 'darude - sandstorm'  (Score: 74)
+
