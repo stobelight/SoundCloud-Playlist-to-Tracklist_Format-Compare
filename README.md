@@ -1,7 +1,7 @@
 # SoundCloud-Playlist-to-Tracklist Format-Compare
 copy paste raw playlist text into cleaned formatted tracklist
 
-# Tracklist-Format for SoundCloud 
+# Tracklist-Format for SoundCloud Playlist
 A Python script that processes raw, copy-pasted playlist text into formatted tracklist output.  
 - updated for 2025 site
 
@@ -20,10 +20,32 @@ wip:
 
 2. Prepare your input text file (INPUT.txt).
 
-3. Run: python scformat_playlist_tracklist.py
+3. Run: python sc-format_playlist_tracklist.py
 
 Output will be saved as:
 >OUTPUT_YYYYMMDD_HHMMSS.txt   OUTPUT_YYYYMMDD_HHMMSS.csv (if SaveAsCSV = true)
+
+
+
+# Tracklist-Comparator with Fuzzywuzzy 
+A Python script for comparing two text files (music tracklists) using fuzzy matching. It highlights differences, handles formatting quirks, and supports multithreading for fun and speed.
+
+## Features
+- **Configurable**: All settings are in `config.ini` — Similarity threshold, multithreading cap.
+- **Debug Mode**: Color-coded visual feedback.
+- **More**: Normalize inputs and strip track numbers.
+
+## Usage
+1. Create a config.ini file, or modify default config file.
+
+2. Prepare your input text files (MAIN_list.txt, NEW_list.txt).
+
+3. Run: python fuzzy-compare_tracklists.py
+
+4. Print results to the console with color-coded scores
+
+Output will be saved as:
+>fuzzydiff_{main_list}_vs_{new_list}_{timestamp}.txt
 
 
 ## Example config.ini
@@ -32,7 +54,7 @@ Output will be saved as:
 # Debug
 Debug = true
 
-# Path to your input file
+# Path to your input file (same directory)
 InputFile = INPUT.txt
 
 # also save to spreadsheet CSV
@@ -53,7 +75,7 @@ RemovePrefix = false
 # Configurable separators (comma-separated list) (·, •, ‧, ⋅, -)
 Separators = ·, •, ‧, ⋅
 
-# New boolean flag: replace known separators 
+# Boolean flag: replace known separators 
 ReplaceSeparator = true
 
 # What to replace it with (leave empty to remove) (" - ")
@@ -87,16 +109,5 @@ similarity_threshold = 75
 # clean input = false, with track #'s = true
 strip_leading_numbers = true
 ```
-
-
-# Tracklist-Comparator with Fuzzywuzzy 
-A Python script for comparing two text files (music tracklists) using fuzzy matching. It highlights differences, handles formatting quirks, and supports multithreading for fun and speed.
-
-## Features
-- **Configurable**: All settings are in `config.ini` — Similarity threshold, multithreading cap.
-- **Debug Mode**: Color-coded visual feedback.
-- **More**: Normalize inputs and strip track numbers.
-
-
 
 >Thank you Copilot and GPT-5 for the free vibecode
