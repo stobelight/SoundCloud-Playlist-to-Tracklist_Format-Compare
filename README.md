@@ -23,7 +23,7 @@ wip:
 3. Run: python format-sc_playlist_tracklist.py
 
 Output will be saved as:
->OUTPUT_YYYYMMDD_HHMMSS.txt   OUTPUT_YYYYMMDD_HHMMSS.csv (if SaveAsCSV = true)
+>OUTPUT_YYYYMMDD_HHMMSS.txt   /    OUTPUT_YYYYMMDD_HHMMSS.csv (if SaveAsCSV = true)
 
 
 
@@ -45,9 +45,15 @@ A Python script for comparing two text files (music tracklists) using fuzzy matc
 4. Print results to the console with color-coded scores
 
 Output will be saved as:
->fuzzydiff_{main_list}_vs_{new_list}_{timestamp}.txt
+>DIFF_{main_list}_vs_{new_list}_{timestamp}.txt
 
+```
+Comparing the sample MAIN/NEW_list.txt shows changes over time to the main playlist and live track data:
 
+=== Lines only in main_file: MAIN_list.txt (missing from new_file: NEW_list.txt) ===
+-tracks here with similarity threshold (Score: < 50) are likely to be missing from the live playlist,
+but archived in the main tracklist.
+```
 ## Example config.ini
 ```
 [Settings]
